@@ -1,0 +1,29 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 670px;
+    min-height: 670px;
+    background-image:url( "../../../assets/Home/bg4.jpg");
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 540px) {
+    .home-container{
+        width: 540px!important;
+       
+    }
+    
+  }
+@media only screen and (max-width:320px){
+    .home-container{
+    width: 320px;
+    }
+    
+}
+@media only screen and (max-width:280px){
+    .home-container{
+    width: 280px;
+    }
+    
+}
+

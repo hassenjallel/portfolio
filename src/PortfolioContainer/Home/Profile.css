@@ -1,0 +1,276 @@
+.profil-Container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+}
+.profil-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+} 
+.profil-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+
+}
+.profil-details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+    
+}
+.profil-details-role h1{
+    font-size: 40px;
+    font-family: cursive;
+    
+}
+.primary-text {
+    color: (--white);
+}
+
+.hihglighted-text {
+    color:var(--dark-orange);
+}
+
+.profil-role-tagline{
+     font-size: 19px;
+     margin: 5px 0 0 0 0;
+     font-family: "Poppins Light";
+
+}
+
+.profil-options .highlighted-btn{
+margin: 0 0 0 28px;
+}
+.profil-options .highlighted-btn:hover{
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+    }
+.profil-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.profil-picture-background{
+    height: 92%;
+    width: 92%;
+    background-image: url("../../assets/Home/profilephoto.jpg");
+    background-size: cover;
+    border-radius:50% ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profil-picture-background:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz .colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+
+.colz .colz-icon i:hover{
+transform: scale(1.5);
+}
+@media only screen and (max-width: 1110px) {
+    .profil-picture {
+      margin: 0 0px 0 80px;
+    }
+    .profil-details-name {
+      font-size: 20px;
+    }
+    .profil-details-role .primary-text {
+      font: 12px;
+    }
+    .profil-options .btn {
+      width: 120px;
+      padding: 11px 0;
+      z-index: 700;
+    }
+  }
+  @media only screen and (max-width: 910px) {
+    .profil-picture {
+      margin: 0 0 0 4px;
+      height: 320px;
+      width: 320px;
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .profil-picture {
+      margin: 0 !important;
+    }
+    .profil-parent {
+      flex-direction: column-reverse;
+      margin: 40px 0 0 0;
+    }
+    .profil-options {
+      display: flex;
+      justify-content: space-between;
+    }
+    .proflie-details {
+      margin: 25px 0 0;
+    }
+    .profil-options .highlighted-btn {
+      margin: 0 !important;
+    }
+    .profil-details-name,
+    .profil-details-role {
+      text-align: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  
+ 
+  
+ 
+  @media only screen and (max-width: 414px) {
+    .profil-picture {
+      height: 275px;
+      width: 414px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 100%;
+    }
+    .profil-Container {
+     max-width: 414px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    
+  }
+  @media only screen and (max-width: 411px) {
+    .profil-picture {
+      height: 275px;
+      width: 411px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 100%;
+    }
+    .profil-Container {
+     max-width: 411px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    
+  }
+  @media only screen and (max-width: 375px) {
+    .profil-picture {
+      height: 275px;
+      width: 375px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .profil-picture {
+      height: 275px;
+      width: 360px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profil-Container {
+     max-width: 360px!important;
+     min-width: 360px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 320px) {
+    .profil-picture {
+      height: 275px;
+      width: 320px;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profil-Container {
+     max-width: 320px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 280px) {
+    .profil-picture {
+      height: 275px;
+      width: 280px!important;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 95%;
+    }
+    .profil-Container {
+     max-width: 280px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+
+    }
+    
+  }

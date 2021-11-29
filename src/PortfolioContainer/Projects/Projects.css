@@ -1,0 +1,138 @@
+
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.image{
+    width: 350px;
+    border-radius:20px 20px 0px 0px ;
+
+}
+.project-image{
+    width: 350px;
+    border-radius:20px 20px 20px 20px ;
+
+}
+.projects-container{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-container{
+    width: 350px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff7f7;
+    border-radius:20px 20px 20px 20px ;
+    box-shadow: 1px 1px 2px 0px var(--black);
+    margin-top: 40px;
+
+}
+
+.box-projects{
+    width: 70%;
+    display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     flex-wrap: wrap;
+
+}
+
+.project-title{
+    font-family: cursive;
+    font-weight: bold;
+}
+.descrip{
+    width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-container {
+      width: 768px;
+     
+    }
+   
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .projects-container {
+        width: 540px !important;
+    }
+      
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .projects-container {
+        width: 414px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .projects-container {
+        width: 360px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .projects-container {
+        max-width: 320px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-container{
+        max-width: 310px !important;
+
+    }
+    .project-image{
+        max-width: 310px !important;
+    }
+    .image{
+        max-width: 310px !important;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .projects-container {
+        width: 280px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project-container{
+        width: 270px !important;
+
+    }
+    .project-image{
+        width: 270px !important;
+    }
+    .image{
+        width: 270px !important;
+    }
+  }

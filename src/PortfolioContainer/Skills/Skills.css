@@ -1,0 +1,175 @@
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 900px;
+    min-height: 900px;
+    background-size: cover;
+    background-image:url( "../../assets/Home/bg4.jpg");
+    background-repeat: no-repeat;
+
+
+}
+
+
+.footer-skills-container{
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.footer-skills-parent{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+}
+.footer-skills-parent img{
+    max-width: 100%;
+    height: 130px;
+}
+.box-skills{
+    color: white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.language-skills{
+display: flex;
+width: 100%;
+justify-content: space-between;
+flex-wrap: wrap;
+align-items: center;
+
+
+}
+.dev-lang:hover{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+    background-color: teal;
+    color: black;
+}
+.dev-lang{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    box-shadow: 0 1px 2px 3px var(--white);
+    border-radius: 50%;
+    height: 120px;
+    width:150px;
+}
+@media only screen and (max-width : 1110px) {
+    .footer-parent {
+        display: flex;
+        align-items: flex-end;
+    }
+    .shape-container{
+            display: flex;
+            width: 70px;
+           }
+           .skills-container{
+               width: 1024px;
+           }
+}
+
+@media only screen and (max-width: 768px) {
+    .skills-container{
+        width: 768px !important;
+        height: 100%!important;
+    }
+    .footer-skills-parent{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    .skills-container{
+        width: 540px!important;
+        height: 100%!important;
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .skills-container{
+        width: 414px!important;
+        max-height: 720px!important;
+        min-height: 600px!important;
+        background-size: cover;
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 375px) {
+    .skills-container{
+        width: 375px!important;
+        max-height: 720px!important;
+        min-height: 600px!important;
+        background-size: cover;
+    }
+   
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .skills-container{
+        width: 320px!important;
+        max-height: 900px!important;
+        min-height: 600px!important;
+        background-size: cover;
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .skills-container{
+        width: 280px!important;
+        height: 100%!important;
+
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+  }
