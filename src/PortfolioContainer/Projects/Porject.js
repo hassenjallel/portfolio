@@ -51,8 +51,16 @@ export default function Projects() {
                         </ul>
 
                     </div>
+                    <div className="btn-container">
 
+                    <a href="https://github.com/hassenjallel/Mosquee" >
+                        <button className="btn btncss highlighted-btn">
+                            consulter
+                        </button>
+                        </a>
+                    </div>
                 </div>
+
                 <div className="project-container" data-aos="flip-right">
                     <div className="project-image">
                         <img className="image"
@@ -82,8 +90,17 @@ export default function Projects() {
                         </ul>
 
                     </div>
+                    <div className="btn-container">
+
+                    <a href="https://github.com/hassenjallel/Tooly" >
+                        <button className="btn btncss highlighted-btn">
+                            consulter
+                        </button>
+                        </a>
+                    </div>
 
                 </div>
+
                 <div className="project-container" data-aos="flip-right">
                     <div className="project-image">
                         <img className="image"
@@ -113,7 +130,14 @@ export default function Projects() {
                         </ul>
 
                     </div>
+                    <div className="btn-container">
 
+                    <a href="https://github.com/hassenjallel/Galaxy-web" >
+                        <button className="btn btncss highlighted-btn">
+                            consulter
+                        </button>
+                        </a>
+                    </div>
                 </div>
                 <div className="project-container" data-aos="flip-right">
                     <div className="project-image">
@@ -148,7 +172,13 @@ export default function Projects() {
                         </ul>
 
                     </div>
-
+                    <div className="btn-container">
+                        <a href="https://github.com/hassenjallel/Refuge-symfony" >
+                        <button className="btn btncss highlighted-btn">
+                            consulter
+                        </button>
+                        </a>
+                    </div>
                 </div>
             </div>
 

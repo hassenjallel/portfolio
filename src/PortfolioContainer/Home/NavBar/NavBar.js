@@ -1,12 +1,12 @@
-import React , {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './NavBar.css';
 //import { NavLink } from 'react-router-dom';
-import {HashLink as NavLink} from 'react-router-hash-link'
+import { HashLink as NavLink } from 'react-router-hash-link'
 import $ from 'jquery';
 
 const NavBar = () => {
 
-    function animation(){
+    function animation() {
         var tabsNewAnim = $('#navbarSupportedContent');
         var activeItemNewAnim = tabsNewAnim.find('.active');
         var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
@@ -14,39 +14,39 @@ const NavBar = () => {
         var itemPosNewAnimTop = activeItemNewAnim.position();
         var itemPosNewAnimLeft = activeItemNewAnim.position();
         $(".hori-selector").css({
-          "top":itemPosNewAnimTop.top + "px", 
-          "left":itemPosNewAnimLeft.left + "px",
-          "height": activeWidthNewAnimHeight + "px",
-          "width": activeWidthNewAnimWidth + "px"
-        });
-        $("#navbarSupportedContent").on("click","li",function(e){
-          $('#navbarSupportedContent ul li').removeClass("active");
-          $(this).addClass('active');
-          var activeWidthNewAnimHeight = $(this).innerHeight();
-          var activeWidthNewAnimWidth = $(this).innerWidth();
-          var itemPosNewAnimTop = $(this).position();
-          var itemPosNewAnimLeft = $(this).position();
-          $(".hori-selector").css({
-            "top":itemPosNewAnimTop.top + "px", 
-            "left":itemPosNewAnimLeft.left + "px",
+            "top": itemPosNewAnimTop.top + "px",
+            "left": itemPosNewAnimLeft.left + "px",
             "height": activeWidthNewAnimHeight + "px",
             "width": activeWidthNewAnimWidth + "px"
-          });
         });
-      }
-    
-      useEffect(() => {
-        
+        $("#navbarSupportedContent").on("click", "li", function (e) {
+            $('#navbarSupportedContent ul li').removeClass("active");
+            $(this).addClass('active');
+            var activeWidthNewAnimHeight = $(this).innerHeight();
+            var activeWidthNewAnimWidth = $(this).innerWidth();
+            var itemPosNewAnimTop = $(this).position();
+            var itemPosNewAnimLeft = $(this).position();
+            $(".hori-selector").css({
+                "top": itemPosNewAnimTop.top + "px",
+                "left": itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px"
+            });
+        });
+    }
+
+    useEffect(() => {
+
         animation();
-        $(window).on('resize', function(){
-          setTimeout(function(){ animation(); }, 500);
+        $(window).on('resize', function () {
+            setTimeout(function () { animation(); }, 500);
         });
-        
-      }, []);
-    
+
+    }, []);
+
     return (
         <nav className="navbarmain navbar navbar-expand-lg navbar-mainbg ">
-            
+
             <button className="navbar-toggler"
                 type="button"
                 data-toggle="collapse"
@@ -55,14 +55,13 @@ const NavBar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <i className="fas fa-bars text-white"></i>
-
+                <i className="fa fa-bars" aria-hidden="true" style={{color:"white"}}></i>
             </button>
             <div className="collapse navbar-collapse"
                 id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <div className="hori-selector">
-                    
+
                     </div>
                     <li className="nav-item active">
                         <NavLink smooth className="nav-link" to="#home" exact>
@@ -70,8 +69,8 @@ const NavBar = () => {
                         </NavLink>
                     </li>
                     <li className="nav-item ">
-                        <NavLink smooth  className="nav-link" to="#aboute" exact>
-                           About
+                        <NavLink smooth className="nav-link" to="#aboute" exact>
+                            About
                         </NavLink>
                     </li>
                     <li className="nav-item ">
@@ -86,7 +85,7 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item ">
                         <NavLink smooth className="nav-link" to="#contactme" exact>
-                            Contact me 
+                            Contact me
                         </NavLink>
                     </li>
                 </ul>

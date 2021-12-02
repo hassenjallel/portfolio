@@ -73,6 +73,10 @@ align-items: center;
            .skills-container{
                width: 1024px;
            }
+           .dev-lang:hover{
+            background-color: transparent;
+            color: white;
+           }
 }
 
 @media only screen and (max-width: 768px) {
@@ -83,6 +87,10 @@ align-items: center;
     .footer-skills-parent{
         display: none;
     }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
   }
   @media only screen and (max-width: 540px) {
     .skills-container{
@@ -94,11 +102,17 @@ align-items: center;
         height: 100px;
         box-shadow: 0 0px 0px 0px ;
         margin: 20px;
+        border-radius: 30%!important;
 
     }
     .dev-lang h3{
         font-size: 12px;
     }
+    
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
   }
   @media only screen and (max-width: 414px) {
     .skills-container{
@@ -114,9 +128,14 @@ align-items: center;
         margin: 20px;
 
     }
+   
     .dev-lang h3{
         font-size: 12px;
     }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
   }
   
   @media only screen and (max-width: 375px) {
@@ -128,15 +147,20 @@ align-items: center;
     }
    
     .dev-lang{
-        width: 50px;
+        width: 70px;
         height: 100px;
         box-shadow: 0 0px 0px 0px ;
         margin: 20px;
-
+        border-radius: 50%!important;
+        
     }
     .dev-lang h3{
         font-size: 12px;
     }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
   }
   @media only screen and (max-width: 320px) {
     .skills-container{
@@ -155,6 +179,10 @@ align-items: center;
     .dev-lang h3{
         font-size: 12px;
     }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
   }
   @media only screen and (max-width: 280px) {
     .skills-container{
@@ -172,4 +200,9 @@ align-items: center;
     .dev-lang h3{
         font-size: 12px;
     }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+
+       }
   }

@@ -141,12 +141,12 @@ transform: scale(1.5);
   }
   
  
-  
+ 
  
   @media only screen and (max-width: 414px) {
     .profil-picture {
       height: 275px;
-      width: 414px;
+      width: 300px!important;
       margin-top: -90px;
     }
     .proflie-details {
@@ -170,7 +170,7 @@ transform: scale(1.5);
   @media only screen and (max-width: 411px) {
     .profil-picture {
       height: 275px;
-      width: 411px;
+      width: 300px!important;
       margin-top: -90px;
     }
     .proflie-details {
@@ -194,7 +194,7 @@ transform: scale(1.5);
   @media only screen and (max-width: 375px) {
     .profil-picture {
       height: 275px;
-      width: 375px;
+      width: 300px!important;
       margin-top: -90px;
     }
     .proflie-details {
@@ -204,7 +204,7 @@ transform: scale(1.5);
   @media only screen and (max-width: 360px) {
     .profil-picture {
       height: 275px;
-      width: 360px;
+      width: 300px!important;
       margin-top: -90px;
     }
     .proflie-details {
@@ -230,11 +230,11 @@ transform: scale(1.5);
   @media only screen and (max-width: 320px) {
     .profil-picture {
       height: 275px;
-      width: 320px;
+      width: 280px!important;
       margin-top: -90px;
     }
     .proflie-details {
-      width: 95%;
+      width: 80%;
     }
     .profil-Container {
      max-width: 320px!important;
@@ -251,11 +251,12 @@ transform: scale(1.5);
 
     }
     
+    
   }
   @media only screen and (max-width: 280px) {
     .profil-picture {
-      height: 275px;
-      width: 280px!important;
+      height: 250px;
+      width: 250px!important;
       margin-top: -90px;
     }
     .proflie-details {
