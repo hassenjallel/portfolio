@@ -3,7 +3,7 @@ import Typical from 'react-typical'
 import './Profile.css'
 export default function Profile() {
     return (
-        <div className="profil-Container">
+        <div id="home" className="profil-Container">
             <div className="profil-parent">
                 <div className="profil-details">
                     <div className="colz">

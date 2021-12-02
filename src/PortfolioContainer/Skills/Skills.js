@@ -22,7 +22,7 @@ export default function Skills() {
     }, []);
     return (
 
-        <div className="skills-container">
+        <div id="skills"className="skills-container">
             <div className="footer-skills-container">
                 <div className="footer-skills-parent">
                     <img

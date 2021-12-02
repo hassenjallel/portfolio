@@ -5,6 +5,9 @@
     justify-content: center;
     height: 10%;
     min-height: fit-content;
+    margin-top: 50px;
+    background-image:url( "../../assets/Home/bg4.jpg");
+
 }
 .profil-parent{
     display: flex;

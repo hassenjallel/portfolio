@@ -7,7 +7,7 @@ export default function Aboutme() {
         AOS.init({ duration: 2000 });
     }, []);
     return (
-        <div className="Aboutme-container">
+        <div id="aboute" className="Aboutme-container">
             <div className="box">
                 <div className="box-content">
 

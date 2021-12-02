@@ -2,7 +2,10 @@
   display: flex;
   justify-content: center;
   height: 75px;
+  width: 100%;
   color: var(--white);
+  align-items: center;
+  background-color:#141f3d ;
   
 }
 .header-parent {
