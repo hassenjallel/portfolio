@@ -55,7 +55,7 @@ const NavBar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <i className="fa fa-bars" aria-hidden="true" style={{color:"white"}}></i>
+                <i className="fa fa-bars" aria-hidden="true" style={{ color: "white" }}></i>
             </button>
             <div className="collapse navbar-collapse"
                 id="navbarSupportedContent">
@@ -69,22 +69,26 @@ const NavBar = () => {
                         </NavLink>
                     </li>
                     <li className="nav-item ">
-                        <NavLink smooth className="nav-link" to="#aboute" exact>
+                        <NavLink smooth className="nav-link" to="#aboute" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" exact>
                             About
                         </NavLink>
                     </li>
                     <li className="nav-item ">
-                        <NavLink smooth className="nav-link" to="#skills" exact>
+                        <NavLink smooth className="nav-link" to="#skills" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" exact>
                             Skills
                         </NavLink>
                     </li>
                     <li className="nav-item ">
-                        <NavLink smooth className="nav-link" to="#projects" exact>
+                        <NavLink smooth className="nav-link" to="#projects" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" exact>
                             Projects
                         </NavLink>
                     </li>
                     <li className="nav-item ">
-                        <NavLink smooth className="nav-link" to="#contactme" exact>
+                        <NavLink smooth className="nav-link" to="#contactme" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" exact>
                             Contact me
                         </NavLink>
                     </li>

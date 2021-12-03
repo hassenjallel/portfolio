@@ -18,3 +18,10 @@
   --toast-success: #0cbfae;
   --loader-color: #0cbfae;
 }
+
+@media only screen and (max-width: 411px) {
+  .app{
+    width: 411px;
+  }
+  
+}

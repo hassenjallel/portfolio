@@ -41,84 +41,84 @@ export default function Skills() {
                             src={html}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>Html</h3>
+                        <h3 >Html</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={css}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>CSS</h3>
+                        <h3 >CSS</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={react}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>reactjs</h3>
+                        <h3>reactjs</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={nodejs}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>NodeJS</h3>
+                        <h3 >NodeJS</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={js}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>JavaScript</h3>
+                        <h3 >JavaScript</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={angular}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>Angular</h3>
+                        <h3 >Angular</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={c}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>C</h3>
+                        <h3 >C</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={cplus}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>C++</h3>
+                        <h3 >C++</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={java}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>Java</h3>
+                        <h3 >Java</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={php}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>PHP</h3>
+                        <h3 >PHP</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={database}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>MongoDB</h3>
+                        <h3 >MongoDB</h3>
                     </div>
                     <div className="dev-lang" data-aos="zoom-out-up">
                         <img
                             src={database}
                             alt="you have problem with the image"
                         />
-                        <h3 style={{ fontFamily: "cursive" }}>MySQL</h3>
+                        <h3 >MySQL</h3>
                     </div>
                 </div>
             </div>

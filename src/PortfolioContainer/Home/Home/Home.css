@@ -14,6 +14,20 @@
     }
     
   }
+  @media only screen and (max-width: 414px) {
+    .home-container{
+        width: 414px!important;
+       
+    }
+    
+  }
+  @media only screen and (max-width: 411px) {
+    .home-container{
+        width: 411px!important;
+       
+    }
+    
+  }
   @media only screen and (max-width: 375px) {
     .home-container{
         width: 375px!important;

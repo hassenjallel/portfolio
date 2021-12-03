@@ -140,7 +140,30 @@ transform: scale(1.5);
     }
   }
   
- 
+  @media only screen and (max-width: 540px) {
+    .profil-picture {
+      height: 275px;
+      width: 300px!important;
+      margin-top: -90px;
+    }
+    .proflie-details {
+      width: 100%;
+    }
+    .profil-Container {
+     max-width: 540px!important;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .profil-options{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    
+  }
  
  
   @media only screen and (max-width: 414px) {

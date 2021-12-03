@@ -113,6 +113,9 @@ align-items: center;
         background-color: transparent;
         color: white;
        }
+       .language-skills{
+           width: 500px;
+       }
   }
   @media only screen and (max-width: 414px) {
     .skills-container{
@@ -136,8 +139,36 @@ align-items: center;
         background-color: transparent;
         color: white;
        }
+       .language-skills{
+        width: 370px;
+    }
   }
-  
+  @media only screen and (max-width: 411px) {
+    .skills-container{
+        width: 411px!important;
+        max-height: 720px!important;
+        min-height: 600px!important;
+        background-size: cover;
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+   
+    .dev-lang h3{
+        font-size: 12px;
+    }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
+       .language-skills{
+        width: 370px;
+    }
+  }
   @media only screen and (max-width: 375px) {
     .skills-container{
         width: 375px!important;
@@ -161,6 +192,34 @@ align-items: center;
         background-color: transparent;
         color: white;
        }
+       .language-skills{
+        width: 335px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .skills-container{
+        width: 360px!important;
+        max-height: 900px!important;
+        min-height: 600px!important;
+        background-size: cover;
+    }
+    .dev-lang{
+        width: 50px;
+        height: 100px;
+        box-shadow: 0 0px 0px 0px ;
+        margin: 20px;
+
+    }
+    .dev-lang h3{
+        font-size: 12px;
+    }
+    .dev-lang:hover{
+        background-color: transparent;
+        color: white;
+       }
+       .language-skills{
+        width: 320px;
+    }
   }
   @media only screen and (max-width: 320px) {
     .skills-container{

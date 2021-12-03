@@ -15,6 +15,7 @@
     width: 500px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 
 }
@@ -47,6 +48,10 @@
 .profil-pic-background:hover{
     transform: scale(1.07);
     transition: 1s ease-out;
+}
+.parag{
+    text-align: justify;
+
 }
 
 @media only screen and (max-width: 1110px) {
@@ -100,13 +105,13 @@
         height: 800px!important;
     }
     .box{
-        width: 768px!important;
+        width: 748px!important;
     }
     .box-content{
         width: 768px!important;
     }
     .Text{
-        max-width: 768px !important;
+        max-width: 748px !important;
         height: 700px !important;
     }
     .parag{
@@ -127,12 +132,19 @@
         width: 250px;
       }
     .Text{
-        width: 540px !important;
+        width: 520px !important;
         height: 700px !important;
     }
     .box{
-        width: 540px !important;
+        width: 520px !important;
         height: 700px !important;
+    }
+    .parag{
+        max-width: 480px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
   }
   @media only screen and (max-width: 414px) {
@@ -141,12 +153,19 @@
         width: 250px;
       }
     .Text{
-        width: 411px !important;
+        width: 394px !important;
         height: 640px !important;
     }
     .box{
-        width: 411px !important;
+        width: 394px !important;
         height: 640px !important;
+    }
+    .parag{
+        max-width: 354px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
   }
   
@@ -156,16 +175,49 @@
         width: 250px;
       }
     .Text{
-        width: 350px !important;
+        width: 355px !important;
         height: 640px !important;
     }
     .box{
-        width: 350px !important;
+        width: 355px !important;
         height: 640px !important;
     }
     .Aboutme-container{
         width: 375px!important;
         height: 800px!important;
+    }
+    .parag{
+        max-width: 315px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .profil-pic {
+        height: 250px;
+        width: 250px;
+      }
+    .Text{
+        width: 340px !important;
+        height: 640px !important;
+    }
+    .box{
+        width: 340px !important;
+        height: 640px !important;
+    }
+    .Aboutme-container{
+        width: 375px!important;
+        height: 800px!important;
+    }
+    .parag{
+        max-width: 300px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
   }
   @media only screen and (max-width: 320px) {
@@ -174,12 +226,20 @@
         width: 250px;
       }
     .Text{
-        width: 310px !important;
+        width: 300px !important;
         height: 640px !important;
     }
     .box{
-        width: 310px !important;
+        width: 300px !important;
         height: 640px !important;
+    }
+    .parag{
+        max-width: 260px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
   }
   @media only screen and (max-width: 280px) {
@@ -188,11 +248,19 @@
         width: 250px;
       }
     .Text{
-        width: 280px !important;
+        width: 260px !important;
         height: 640px !important;
     }
     .box{
-        width: 280px !important;
+        width: 260px !important;
         height: 640px !important;
+    }
+    .parag{
+        max-width: 220px!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
     }
   }
