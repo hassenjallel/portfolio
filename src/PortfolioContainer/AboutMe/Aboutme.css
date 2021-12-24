@@ -1,48 +1,28 @@
 .Aboutme-container{
     margin-top: 10px;
-    height: 600px;
+    
 }
 .box{
     display: flex;
     width: 100%;
-    height: 500px;
+    height: 400px;
     
     justify-content: center;
 
+
 }
 .Text{
-    width: 57%;
-    height: 100%;
-    padding-left: 20px;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 
-}
-.parag{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 .box-content{
     display: flex;
     width: 70%;
     align-items: center;
-    box-shadow: 5px 5px 13px -1px rgba(0,0,0,0.99);
-    border-radius: 10px;
-
-
-}
-.Pic{
-    width: 40%;
-    height: 100%;
-    background-image: url("../../assets/Home/AboutMe3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px 0px 0px 10px;
 
 }
 
@@ -50,14 +30,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
     height: 250px;
     width: 250px;
-
 }
 .profil-pic-background{
     height: 92%;
     width: 92%;
+    background-image: url("../../assets/Home/AboutMe.jpg");
     background-size: cover;
+    border-radius:50% ;
     background-repeat: no-repeat;
     background-position: center;
 }

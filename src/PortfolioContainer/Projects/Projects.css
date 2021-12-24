@@ -1,235 +1,233 @@
-.resume-container {
+
+.titre{
     display: flex;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
-    min-height: fit-content;
-    margin: 120px 0;
-  }
-  
-  .resume-card {
-    display: flex;
-    height: 360px;
-    width: 1000px;
-    /* margin: 80px 0; */
-  }
-  
-  .resume-bullets {
-    box-shadow: 15px 0 9px -15px #1f2235;
-    height: 100%;
-    width: 320px;
-  }
-  
-  .resume-bullet-details {
-    flex-grow: 1;
-    width: 600px;
-    overflow: hidden;
-    padding: 0 0 0 80px;
-  }
-  
-  .experience-description {
-    margin: 10px 0 0 0;
-    text-align: justify;
-  }
-  
-  .resume-description-text {
-    font-size: 12px;
-  }
-  
-  .resume-details-carousal {
-    transition: transform 1s ease-out;
-  }
-  
-  .bullet-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
+    font-family: cursive;
+}
+.image{
+    width: 350px;
+    border-radius:20px 20px 0px 0px ;
+
+}
+.project-image{
+    width: 350px;
+    border-radius:20px 20px 20px 20px ;
+
+}
+.projects-container{
     width: 100%;
-    position: relative;
-  }
-  
-  .bullets {
-    width: 86%;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .bullet {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.project-container{
+    width: 350px;
+    height: 450px;
     display: flex;
     align-items: center;
+    flex-direction: column;
+    background-color: #fff7f7;
+    border-radius:20px 20px 20px 20px ;
+    box-shadow: 1px 1px 2px 0px var(--black);
+    margin-top: 40px;
     cursor: pointer;
-    background-color: #1f2235;
-    height: 40px;
-    margin: 15px 0;
-    padding: 0 8px;
-    border-radius: 20px;
-    width: 30px;
-    transition: width 0.6s ease;
-  }
-  
-  .bullet-label {
-    font-size: 14px;
-    white-space: nowrap;
-    font-family: "Poppins SemiBold";
-  }
-  
-  .bullet-logo {
-    height: 16px;
-    margin: 0 30px 0 0;
-  }
-  
-  .bullet-icons {
-    width: 34px;
-    height: 100%;
-    z-index: 1;
-    background-color: #1f2235;
-    position: absolute;
-  }
-  
-  .selected-bullet {
-    color: var(--white);
-    width: 100%;
-  }
-  
-  .resume-screen-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 360px;
-    width: 100%;
-  }
-  
-  .resume-heading {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .resume-main-heading {
     position: relative;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .resume-main-heading span {
-    color: var(--dark-orange);
-    font-size: 16px;
-    font-family: "Poppins SemiBold";
-  }
-  
-  .experience-description {
-    max-width: 100%;
-  }
-  
-  .heading-bullet {
-    position: absolute;
-    left: -30px;
-    height: 15px;
-    width: 15px;
-    top: 5px;
-    border-radius: 50%;
-    background-color: #ff5823;
-  }
-  
-  .resume-sub-heading {
-    font-size: 14px;
-    font-family: "Poppins SemiBold";
-    color: var(--black);
-    margin: 10px 0 0 0;
-  }
-  
-  .resume-heading-description {
-    font-size: 12px;
-    text-align: justify;
-  }
-  
-  .heading-date {
-    background-color: #ff5823;
-    padding: 4px 12px;
-    font-size: 14px;
-    border-radius: 14px;
-    color: var(--white);
-  }
-  
-  .skill-parent {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 50%;
-  }
-  
-  .programming-skills-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  .skill-percentage {
-    position: relative;
-    height: 15px;
+
+}
+
+.box-projects{
     width: 70%;
-    background-color: #ff5823;
-  }
-  
-  .skill-percentage .active-percentage-bar {
-    height: 15px;
-    transition: 0.8s ease;
+    display: flex;
+     justify-content: space-between;
+     margin-top: 50px;
+     flex-wrap: wrap;
+
+}
+
+.project-title{
+    font-family: cursive;
+    font-weight: bold;
+}
+.descrip{
+    width: 300px;
+}
+.btn-container{
     position: absolute;
-    background-color: #1f2235;
-  }
-  
-  .skill-parent span {
-    font-family: "Poppins Bold";
-    font-size: 16px;
-    color: #ff5823;
-  }
-  
-  /* IPAD PRO RESPONSIVENESS */
-  @media only screen and (max-width: 1110px) {
-    .resume-card {
-      width: 880px;
+bottom:   10px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-container a{
+    width: 100%;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.btncss{
+    width: 80%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-container {
+      width: 768px;
+     
     }
-  
-    .resume-bullet-details {
-      padding: 0 0 0 70px;
-    }
-  }
-  
-  /* IPAD RESPONSIVENESS */
-  @media only screen and (max-width: 1023px) {
-    .resume-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .bullets {
-      width: 90%;
-    }
-  
-    .resume-card {
-      height: fit-content;
-      display: flex;
-      flex-direction: column;
-      margin: 30px 0;
-      align-items: center;
-      width: 90%;
-    }
-  
-    .resume-bullet-details {
-      height: 360px;
-      padding: 0;
-      width: fit-content;
-    }
-  
-    .resume-bullets {
-      margin: 30px 0;
-      width: 100%;
-    }
-  
-    .selected-bullet {
-      width: 100%;
+   
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
   }
+  @media only screen and (max-width: 540px) {
+    .projects-container {
+        width: 520px !important;
+    }
+    .project-container{
+        width: 500px;
+        height: 500px;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+    }
+    .project-image{
+        width: 500px;
+    }
+    .image{
+        width: 500px;
+    }
+    .descrip{
+        width: 470px;
+    }
+
+  }
+  @media only screen and (max-width: 414px) {
+    .projects-container {
+        width: 414px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 394px;
+
+    }
+    .descrip{
+        width: 375px;
+    }
+  }
+  @media only screen and (max-width: 414px) {
+    .projects-container {
+        width: 414px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 394px;
+
+    }
+    .descrip{
+        width: 375px;
+    }
+    .image{
+        width: 394px;
+    }
+    .project-image{
+        width: 394px;
+    }
+  }
   
+  @media only screen and (max-width: 375px) {
+    .projects-container {
+        width: 355px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 355px;
+    }
+    .project-image{
+        width: 355px;
+    }
+    .image{
+        width: 355px;
+    }
+    .descrip{
+        width: 300px;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .projects-container {
+        width: 355px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 340px;
+    }
+    .project-image{
+        width: 340px;
+    }
+    .image{
+        width: 340px;
+    }
+
+  }
+  @media only screen and (max-width: 320px) {
+   
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+
+    }
+    .project-container{
+        max-width: 300px !important;
+
+    }
+    .project-image{
+        max-width: 300px !important;
+    }
+    .image{
+        max-width: 300px !important;
+    }
+
+  }
+  @media only screen and (max-width: 280px) {
+    .projects-container {
+        width: 260px !important;
+    }
+    .box-projects{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+
+    }
+    .project-container{
+        width: 260px !important;
+
+    }
+    .project-image{
+        width: 260px !important;
+    }
+    .image{
+        width: 260px !important;
+    }
+    
+  }
