@@ -55,7 +55,7 @@ const NavBar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <i className="fa fa-bars" aria-hidden="true" style={{ color: "white" }}></i>
+                <i className="fa fa-bars" aria-hidden="true" style={{ color: "black" }}></i>
             </button>
             <div className="collapse navbar-collapse"
                 id="navbarSupportedContent">

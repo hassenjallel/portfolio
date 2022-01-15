@@ -6,6 +6,12 @@
 }
 
 @font-face {
+  font-family: "cerebri sans bold ";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Cerebri-Sans-Bold.ttf");
+}
+@font-face {
   font-family: "Poppins Regular";
   font-style: normal;
   font-weight: normal;
@@ -49,6 +55,10 @@
 
 * {
   outline: none;
+}
+@font-face {
+  font-family: "Evolve sans";
+  src: url("./assets/fonts/MADE\ Evolve\ Sans\ Bold\ \(PERSONAL\ USE\).otf");
 }
 
 body {

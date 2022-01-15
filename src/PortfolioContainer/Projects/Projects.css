@@ -1,233 +1,918 @@
+@font-face {
+  font-family: "oswald";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../assets/fonts/Oswald-SemiBold.ttf");
+}
+.projects-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 250px;
+}
 
-.titre{
+.hello-word {
+  color: #ff5757;
+  font-family: oswald;
+}
+.code {
+  display: flex;
+  flex-direction: column;
+}
+.intmain span {
+  font-size: 40px;
+}
+.hello-word h1 {
+  font-size: 80px;
+}
+.include strong {
+  font-size: 40px;
+}
+.printf-msg span {
+  font-size: 40px;
+}
+.printf span {
+  font-size: 40px;
+}
+.return0 span {
+  font-size: 40px;
+}
+.closeTag span {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .projects-container {
+    padding-top: 140px;
+    max-width: 1280px !important;
+    min-width: 1280px !important;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .projects-container {
+    max-width: 1020px !important;
+    min-width: 1020px !important;
+    padding-top: 20px;
+  }
+
+  .hello-word {
+    max-width: 1020px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: cursive;
-}
-.image{
-    width: 350px;
-    border-radius:20px 20px 0px 0px ;
-
-}
-.project-image{
-    width: 350px;
-    border-radius:20px 20px 20px 20px ;
-
-}
-.projects-container{
-    width: 100%;
-    display:flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.project-container{
-    width: 350px;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff7f7;
-    border-radius:20px 20px 20px 20px ;
-    box-shadow: 1px 1px 2px 0px var(--black);
-    margin-top: 40px;
-    cursor: pointer;
-    position: relative;
+  }
 
-}
-
-.box-projects{
-    width: 70%;
-    display: flex;
-     justify-content: space-between;
-     margin-top: 50px;
-     flex-wrap: wrap;
-
-}
-
-.project-title{
-    font-family: cursive;
-    font-weight: bold;
-}
-.descrip{
-    width: 300px;
-}
-.btn-container{
-    position: absolute;
-bottom:   10px;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
-}
-.btn-container a{
-    width: 100%;
-    display: flex;
-align-items: center;
-justify-content: center;
-}
-.btncss{
-    width: 80%;
-    height: 20px;
+  .include {
+    width: 1020px;
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+  }
+
+  .intmain {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf-msg {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return0 {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeTag {
+    width: 1020px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stdio {
+    font-size: 20px;
+  }
+  .hello-word h1 {
+    font-size: 65px;
+  }
+  .include strong {
+    font-size: 30px;
+  }
+  .intmain span {
+    font-size: 30px;
+  }
+  .printf-msg span {
+    font-size: 30px;
+  }
+  .printf span {
+    font-size: 30px;
+  }
+  .return0 span {
+    font-size: 30px;
+  }
+  .closeTag span {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .projects-container {
+    max-width: 912px !important;
+    min-width: 912px !important;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 820px) {
     .projects-container {
-      width: 768px;
-     
-    }
-   
-    .box-projects{
+        padding-top: 70px;
+        max-width: 820px !important;
+        min-width: 820px !important;
+      }
+      .hello-word {
+        max-width: 820px !important;
+        min-width: 820px !important;
         display: flex;
         align-items: center;
         justify-content: center;
-    }
-  }
-  @media only screen and (max-width: 540px) {
-    .projects-container {
-        width: 520px !important;
-    }
-    .project-container{
-        width: 500px;
-        height: 500px;
-    }
-    .box-projects{
-        display: flex;
         align-items: center;
-        justify-content: center;
-        width: 500px;
-    }
-    .project-image{
-        width: 500px;
-    }
-    .image{
-        width: 500px;
-    }
-    .descrip{
-        width: 470px;
-    }
-
-  }
-  @media only screen and (max-width: 414px) {
-    .projects-container {
-        width: 414px !important;
-    }
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 394px;
-
-    }
-    .descrip{
-        width: 375px;
-    }
-  }
-  @media only screen and (max-width: 414px) {
-    .projects-container {
-        width: 414px !important;
-    }
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 394px;
-
-    }
-    .descrip{
-        width: 375px;
-    }
-    .image{
-        width: 394px;
-    }
-    .project-image{
-        width: 394px;
-    }
-  }
-  
-  @media only screen and (max-width: 375px) {
-    .projects-container {
-        width: 355px !important;
-    }
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 355px;
-    }
-    .project-image{
-        width: 355px;
-    }
-    .image{
-        width: 355px;
-    }
-    .descrip{
-        width: 300px;
-    }
-  }
-  @media only screen and (max-width: 360px) {
-    .projects-container {
-        width: 355px !important;
-    }
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 340px;
-    }
-    .project-image{
-        width: 340px;
-    }
-    .image{
-        width: 340px;
-    }
-
-  }
-  @media only screen and (max-width: 320px) {
-   
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-
-    }
-    .project-container{
-        max-width: 300px !important;
-
-    }
-    .project-image{
-        max-width: 300px !important;
-    }
-    .image{
-        max-width: 300px !important;
-    }
-
-  }
-  @media only screen and (max-width: 280px) {
-    .projects-container {
-        width: 260px !important;
-    }
-    .box-projects{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 260px;
-
-    }
-    .project-container{
-        width: 260px !important;
-
-    }
-    .project-image{
-        width: 260px !important;
-    }
-    .image{
-        width: 260px !important;
-    }
+      }
     
+      .include {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .intmain {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf-msg {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .return0 {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .closeTag {
+        max-width: 820px !important;
+        min-width: 820px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+}
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    padding-top: 70px;
+    max-width: 768px !important;
+    min-width: 768px !important;
   }
+  .hello-word {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .include {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intmain {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf-msg {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return0 {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeTag {
+    max-width: 768px !important;
+    min-width: 768px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .projects-container {
+    padding-top: 80px;
+    max-width: 540px !important;
+    min-width: 540px !important;
+  }
+
+  .hello-word {
+    max-width: 540px !important;
+    min-width: 540px !important;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .include {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intmain {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf-msg {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return0 {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeTag {
+    max-width: 540px !important;
+    min-width: 540px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stdio {
+    font-size: 20px;
+  }
+  .hello-word h1 {
+    font-size: 34px;
+  }
+  .include strong {
+    font-size: 20px;
+  }
+  .intmain span {
+    font-size: 20px;
+  }
+  .printf-msg span {
+    font-size: 20px;
+  }
+  .printf span {
+    font-size: 20px;
+  }
+  .return0 span {
+    font-size: 20px;
+  }
+  .closeTag span {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 414px) {
+    .projects-container {
+        padding-top: 80px;
+        max-width: 414px !important;
+        min-width: 414px !important;
+      }
+    
+      .hello-word {
+        max-width: 414px !important;
+        min-width: 414px !important;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .include {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .intmain {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf-msg {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .return0 {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .closeTag {
+        max-width: 414px !important;
+        min-width: 414px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+}
+@media only screen and (max-width: 412px) {
+  .projects-container {
+    padding-top: 80px;
+    max-width: 410px !important;
+    min-width: 410px !important;
+  }
+
+  .hello-word {
+    max-width: 410px !important;
+    min-width: 410px !important;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .include {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .intmain {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf-msg {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .printf {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .return0 {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .closeTag {
+    max-width: 410px !important;
+    min-width: 410px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stdio {
+    font-size: 20px;
+  }
+  .hello-word h1 {
+    font-size: 34px;
+  }
+  .include strong {
+    font-size: 20px;
+  }
+  .intmain span {
+    font-size: 20px;
+  }
+  .printf-msg span {
+    font-size: 20px;
+  }
+  .printf span {
+    font-size: 20px;
+  }
+  .return0 span {
+    font-size: 20px;
+  }
+  .closeTag span {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 390px) {
+    .projects-container {
+        padding-top: 60px;
+        max-width: 390px !important;
+        min-width: 390px !important;
+      }
+    
+      .hello-word {
+        max-width: 390px !important;
+        min-width: 390px !important;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .include {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .intmain {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf-msg {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .return0 {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .closeTag {
+        max-width: 390px !important;
+        min-width: 390px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .stdio {
+        font-size: 15px;
+      }
+      .hello-word h1 {
+        font-size: 34px;
+      }
+      .include strong {
+        font-size: 15px;
+      }
+      .intmain span {
+        font-size: 15px;
+      }
+      .printf-msg span {
+        font-size: 15px;
+      }
+      .printf span {
+        font-size: 15px;
+      }
+      .return0 span {
+        font-size: 15px;
+      }
+      .closeTag span {
+        font-size: 15px;
+      }
+}
+@media only screen and (max-width: 375px) {
+    .projects-container {
+        padding-top: 60px;
+        max-width: 375px !important;
+        min-width: 375px !important;
+      }
+    
+      .hello-word {
+        max-width: 375px !important;
+        min-width: 375px !important;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .include {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .intmain {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf-msg {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .return0 {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .closeTag {
+        max-width: 375px !important;
+        min-width: 375px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .stdio {
+        font-size: 13px;
+      }
+      .hello-word h1 {
+        font-size: 34px;
+      }
+      .include strong {
+        font-size: 13px;
+      }
+      .intmain span {
+        font-size: 13px;
+      }
+      .printf-msg span {
+        font-size: 13px;
+      }
+      .printf span {
+        font-size: 13px;
+      }
+      .return0 span {
+        font-size: 13px;
+      }
+      .closeTag span {
+        font-size: 13px;
+      }
+}
+@media only screen and (max-width: 360px) {
+    
+    .projects-container {
+        padding-top: 80px;
+        max-width: 360px !important;
+        min-width: 360px !important;
+      }
+    
+      .hello-word {
+        max-width: 360px !important;
+        min-width: 360px !important;
+            display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .include {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .intmain {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf-msg {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .printf {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .return0 {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .closeTag {
+        max-width: 360px !important;
+        min-width: 360px !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .stdio {
+        font-size: 17px;
+      }
+      .hello-word h1 {
+        font-size: 34px;
+      }
+      .include strong {
+        font-size: 17px;
+      }
+      .intmain span {
+        font-size: 17px;
+      }
+      .printf-msg span {
+        font-size: 17px;
+      }
+      .printf span {
+        font-size: 17px;
+      }
+      .return0 span {
+        font-size: 17px;
+      }
+      .closeTag span {
+        font-size: 17px;
+      }
+  }
+@media only screen and (max-width: 280px) {
+  .projects-container {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    padding-top: 50px;
+  }
+  .hello-word {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .include {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .intmain {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .printf-msg {
+    max-width: 270px !important;
+    min-width: 270px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .printf {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .return0 {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .closeTag {
+    max-width: 280px !important;
+    min-width: 280px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .hello-word h1 {
+    font-size: 30px;
+  }
+  .include strong {
+    font-size: 15px;
+  }
+  .intmain span {
+    font-size: 15px;
+  }
+  .printf-msg span {
+    font-size: 13px;
+  }
+  .printf span {
+    font-size: 15px;
+  }
+  .return0 span {
+    font-size: 15px;
+  }
+  .closeTag span {
+    font-size: 15px;
+  }
+}

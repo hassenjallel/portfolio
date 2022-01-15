@@ -18,10 +18,48 @@
   --toast-success: #0cbfae;
   --loader-color: #0cbfae;
 }
-
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 820px) {
   .app{
-    width: 411px;
+      max-width: 820px!important;
+      min-width: 820px !important;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .app{
+      max-width: 768px!important;
+      min-width: 768px !important;
+  }
+  
+}
+@media only screen and (max-width: 540px) {
+  .app{
+      max-width: 540px!important;
+      min-width: 540px !important;
+  }
+  
+}
+@media only screen and (max-width: 414px) {
+  .app{
+    max-width: 414px !important;
+    min-width: 414px !important;
+
+  }
+  
+}
+@media only screen and (max-width: 390px) {
+  .app{
+    max-width: 390px !important;
+    min-width: 390px !important;
+
+  }
+  
+}
+@media only screen and (max-width: 375px) {
+  .app{
+    max-width: 375px !important;
+    min-width: 375px !important;
+
   }
   
 }

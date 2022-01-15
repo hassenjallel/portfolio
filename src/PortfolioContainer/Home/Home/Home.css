@@ -2,28 +2,63 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-height: 670px;
-    min-height: 670px;
-    background-image:url( "../../../assets/Home/bg4.jpg");
-    background-repeat: no-repeat;
+    max-height: 450px;
+    min-height: 450px;
+background-color: white;
+}
+@media only screen and (max-width: 912px) {
+  .home-container{
+      max-width: 912px!important;
+      min-width: 912px !important;
+     
+  }
+  
+}
+@media only screen and (max-width: 820px) {
+  .home-container{
+      max-width: 820px!important;
+      min-width: 820px !important;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .home-container{
+      max-width: 768px!important;
+      min-width: 768px!important;
+
+     
+  }
+  
 }
 @media only screen and (max-width: 540px) {
     .home-container{
-        width: 540px!important;
+        max-width: 540px!important;
+        min-width: 540px!important;
+
        
     }
     
   }
   @media only screen and (max-width: 414px) {
     .home-container{
-        width: 414px!important;
+      max-width: 414px !important;
+      min-width: 414px !important;
        
     }
     
   }
-  @media only screen and (max-width: 411px) {
+  @media only screen and (max-width: 412px) {
     .home-container{
-        width: 411px!important;
+        max-width: 410px!important;
+        min-width: 410px!important;
+       
+    }
+    
+  }
+  @media only screen and (max-width: 390px) {
+    .home-container{
+        max-width: 380px!important;
+        min-width: 380px !important;
        
     }
     
@@ -37,21 +72,24 @@
   }
   @media only screen and (max-width: 360px) {
     .home-container{
-        width: 360px!important;
+        max-width: 360px!important;
+        min-width: 360px !important;
        
     }
     
   }
 @media only screen and (max-width:320px){
     .home-container{
-    width: 320px!important;
-    }
+      max-width: 320px!important;
+      min-width: 320px !important;
+         }
     
 }
 @media only screen and (max-width:280px){
     .home-container{
-    width: 280px!important;
-    }
+      max-width: 280px!important;
+      min-width: 280px !important;
+         }
     
 }
 

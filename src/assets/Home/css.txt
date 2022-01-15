@@ -1,0 +1,274 @@
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 670px;
+    min-height: 670px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 120px;
+  
+
+}
+.allpic{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    width: 50%;
+    position: relative;
+    height: 120px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.skills-image{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.image-skill{
+    padding-top: 50px;
+    
+}
+.toolkit{
+    position: absolute;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 150px;
+}
+.image-skill{
+    width: 170px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .title{
+        width: 60%;
+        min-height: 120px !important;
+    }
+    h2{
+        margin-top: 10px;
+    }
+    .image-skill{
+        width: 150px;
+    }
+    .brushImage{
+        margin-top: 50px;
+        height: 150px;
+    }
+    .toolkit{
+        padding-right: 70px;
+        margin-top: 70px;
+        font-size: 40px;
+    }
+   }
+@media only screen and (max-width: 1024px) {
+   .title{
+       width: 60%;
+       min-height: 120px !important;
+   }
+   h2{
+       margin-top: 10px;
+   }
+   .image-skill{
+       width: 150px;
+   }
+  }
+  @media only screen and (max-width: 912px) {
+      .skills-container{
+          width: 912px;
+
+      }
+      .brushImage{
+          height: 100px;
+          margin-bottom: 200px;
+      }
+    .title{
+        width: 60%;
+        height: 70px !important;
+        position: relative;        
+    }
+    .toolkit{
+        left: 110px;
+        margin-bottom: 200px;
+        color: white;
+        font-size: 37px;
+    }
+    .image-skill{
+        width: 100px !important;
+        height: 170px;
+    }
+    .skills-image{
+        padding-top: 0px;
+
+    }
+    
+}
+  @media only screen and (max-width: 820px) {
+    .skills-container{
+        padding-top: 0px;
+        width: 820px;
+    }
+    .title{
+        width: 60%;
+        margin-top: 150px;
+        height: 25px;
+        min-height: 120px !important;
+    }
+    .skills-image{
+        padding-top: 0px !important;
+
+    }
+    .toolkit{
+
+        width: 250px;
+    }
+}
+  @media only screen and (max-width: 768px) {
+      .skills-container{
+          width: 768px;
+          padding-top: 0px;
+              }
+      .title{
+          width: 80%;
+      }
+      .image-skill{
+        width: 150px;
+    }
+    
+  }
+  @media only screen and (max-width: 540px) {
+    .title{
+        width: 70%;
+        margin-top: 50px;
+    }
+    .toolkit{
+        width: 200px;
+        font-size: 27px;
+        left: 70px;
+        top:13px;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  .skills-container{
+      max-height: 400px !important;
+      min-height: 400px !important;
+      width: 540px;
+
+  }
+  .brushImage{
+      height: 100px;
+  }
+  
+}
+  @media only screen and (max-width: 414px) {
+    .title{
+        width: 80%;
+        margin-top: 300px;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  
+}
+@media only screen and (max-width: 412px) {
+    .skills-container{
+        width: 412px;
+        border: solid black;
+        margin-top: 350px;
+        padding-top: 0px;
+    }
+    .title{
+        width: 80%;
+        margin-top: 200px;
+        border: solid red;
+        position: absolute;
+        top:800px;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  .skills-image{
+    margin-bottom: 250px;
+
+  }
+  .brushImage{
+      width: 400px;
+      height: 100px;     
+         border: solid black;
+         margin-top: 0px;
+         top:50px;
+         
+
+  }
+  .toolkit{
+      font-size: 25px;
+      position: absolute;
+      top:0px;
+      padding-right: 50px;
+      color: black;
+      border: solid black;
+        position: absolute;  
+  }
+  
+}
+  @media only screen and (max-width: 375px) {
+    .title{
+        width: 80%;
+        margin-top: 300px;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  }
+  @media only screen and (max-width: 320px) {
+    .title{
+        width: 80%;
+        margin-top: 300px;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  .skills-image{
+      max-width: 90%;
+  }
+
+}
+@media only screen and (max-width: 280px) {
+    .title{
+        width: 280px;
+        margin-top: 300px;
+    }
+    .brushImage{
+        width: 280px;
+        height: 50px;
+    }
+    .toolkit{
+        width: 150px;
+        font-size: 17px;
+        margin-top: 70px;
+        left:50px;
+        border: solid black;
+    }
+    .image-skill{
+      width: 70px;
+  }
+  .skills-image{
+      max-width: 90%;
+  }
+  .skills-container{
+      width: 280px !important;
+  }
+
+}
+

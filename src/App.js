@@ -1,33 +1,26 @@
-import './App.css';
-import Home from './PortfolioContainer/Home/Home/Home';
-import Profile from './PortfolioContainer/Home/Profile';
-import Footer from './PortfolioContainer/Home/Footer/Footer';
-import Aboutme from './PortfolioContainer/AboutMe/Aboutme';
-import Skills from './PortfolioContainer/Skills/Skills';
-import Projects from './PortfolioContainer/Projects/Porject';
-import Contact from './PortfolioContainer/ContactMe/contactme';
+import "./App.css";
+import Home from "./PortfolioContainer/Home/Home/Home";
+import Skills from "./PortfolioContainer/Skills/Skills";
+import Projects from "./PortfolioContainer/Projects/Porject";
+import Projects2 from "./PortfolioContainer/Project2/Project2";
+
+import Contact from "./PortfolioContainer/ContactMe/contactme";
 import {
   BrowserRouter as Router,
   Route,
   Redirect,
-  Switch
-
-} from 'react-router-dom';
+  Switch,
+} from "react-router-dom";
 function App() {
   return (
     <div className="App">
       <Router>
+         <Home />
 
-        <Home />
-     
-        <Aboutme />
-    
-        <Skills />
-   
-        <Projects />
-       
-        <Contact />
-          
+      <Skills />
+      <Projects />
+         <Projects2/>
+    <Contact/> 
       </Router>
     </div>
   );
