@@ -9,6 +9,7 @@
   color: white;
   flex-direction: row;
   border-radius: 10px 10px 0 0;
+  
 }
 .empty {
   width: 25%;
@@ -354,14 +355,16 @@
   }
   .title2-contact {
     left: 0%;
-    font-size: 32px;
-    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+        position: relative;
     top:10px
 
   }
   .title-contact {
     left: 0%;
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: bold;
     position: relative;
     padding-bottom: 0;
     top: 0px;
@@ -404,13 +407,15 @@
   }
   .title2-contact {
     left: 0%;
-    font-size: 32px;
-    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+        position: relative;
   }
   .title-contact {
     left: 0%;
-    font-size: 32px;
-    position: relative;
+    font-size: 28px;
+    font-weight: bold;
+        position: relative;
     padding-bottom: 0;
   }
   .contact-container {
@@ -440,12 +445,14 @@
   }
   .title2-contact {
     left: 0%;
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: bold;
     position: relative;
   }
   .title-contact {
     left: 0%;
-    font-size: 32px;
+    font-size: 28px;
+    font-weight: bold;
     position: relative;
     padding-bottom: 0;
   }
@@ -482,12 +489,15 @@
     }
     .title2-contact {
       left: 0%;
-      font-size: 32px;
+      font-size: 28px;
       position: relative;
+      font-weight: bold;
+
     }
     .title-contact {
       left: 0%;
-      font-size: 32px;
+      font-size: 28px;
+      font-weight: bold;
       position: relative;
       padding-bottom: 0;
     }
@@ -529,12 +539,13 @@
   }
   .title2-contact {
     left: 0%;
-    font-size: 29px;
-    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+        position: relative;
   }
   .title-contact {
     left: 0%;
-    font-size: 32px;
+    font-size: 28px;
     position: relative;
     padding-bottom: 0;
   }
@@ -569,13 +580,14 @@
     }
     .title2-contact {
       left: 0%;
-      font-size: 24px;
-      position: relative;
+      font-size: 18px;
+      font-weight: bold;
+            position: relative;
       top:160px
     }
     .title-contact {
       left: 0%;
-      font-size: 28px;
+      font-size: 23px;
       position: relative;
       padding-bottom: 0;
       top :150px

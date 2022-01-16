@@ -19,6 +19,7 @@
 .profil-Container{
 display: flex;
 flex-direction: row;
+
 }
 .profil-L{
   width: 60%;
