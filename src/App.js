@@ -5,23 +5,33 @@ import Projects from "./PortfolioContainer/Projects/Porject";
 import Projects2 from "./PortfolioContainer/Project2/Project2";
 
 import Contact from "./PortfolioContainer/ContactMe/contactme";
+import LogoAcc from "./PortfolioContainer/LogoAcc/LogoAcc";
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
+ 
   Switch,
+  useLocation
 } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion';
 function App() {
+  const location=useLocation();
   return (
     <div className="App">
-      <Router>
-         <Home />
-
-      <Skills />
-      <Projects />
-         <Projects2/>
-    <Contact/> 
-      </Router>
+        <AnimatePresence>
+        <Switch location={location} key={location.key} >
+          <Route path="/" exact>
+            <LogoAcc />
+          </Route>
+          <Route path="/profil">
+            <Home />
+            <Skills />
+            <Projects />
+            <Projects2 />
+            <Contact />
+          </Route>
+        </Switch>
+        </AnimatePresence>
     </div>
   );
 }

@@ -2,15 +2,33 @@ import React from "react";
 import Hassen from "../../assets/Home/1.png";
 import HassenBack from "../../assets/Home/2.png";
 import "./Profile.css";
-export default function Profile() {
-  return (
-    <div id="home" className="profil-Container">
-     <div className="profil-L">
-     <h2 className="welcome">WELCOME</h2> 
-     <h2 className="marahbe" >مرحبا </h2>   
-     <h1 className="imhassen">I AM HASSEN JALLELI</h1>
+import { motion } from "framer-motion";
 
-     <span className="profil-desc">
+export default function Profile() {
+  const containerVariants = {
+    hidden: {
+      x: "100%",
+    },
+    visible: {
+     x: "0%",
+      transition: { delay: 0.5, duration: 0.5, type: "spring", stiffness: "60" },
+    },
+    
+  };
+  return (
+    <motion.div
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      id="home"
+      className="profil-Container"
+    >
+      <div className="profil-L">
+        <h2 className="welcome">WELCOME</h2>
+        <h2 className="marahbe">مرحبا </h2>
+        <h1 className="imhassen">I AM HASSEN JALLELI</h1>
+
+        <span className="profil-desc">
           Oh my goodness , hello ! I am Front &amp; Back-End developer based in
           Tunis , Tunisia . I love long walks on the beach , writing clean code
           , and pushing my skills to the limit . My interests include joining
@@ -23,18 +41,18 @@ export default function Profile() {
           recommendations!
         </span>
       </div>
-     <div className="profil-R">
-        <img className="hassen-background" src={HassenBack}/>
-        <img className="hassen-pic" src={Hassen}/>
+      <div className="profil-R">
+        <img className="hassen-background" src={HassenBack} />
+        <img className="hassen-pic" src={Hassen} />
 
         <div className="icons">
-        <div className="facebook">
+          <div className="facebook">
             <a href="https://www.facebook.com/hassen.jalleli.5/">
               <h3>
                 {" "}
                 <i
                   className="fa fa-facebook-square"
-                  style={{ color: "#fd4b03", width: "50px"  }}
+                  style={{ color: "#fd4b03", width: "50px" }}
                 ></i>
               </h3>
             </a>
@@ -43,10 +61,11 @@ export default function Profile() {
             <a href="https://www.linkedin.com/in/hassen-jalleli-6788ab214/">
               <h3>
                 {" "}
-                <i class="fa fa-linkedin-square" aria-hidden="true" 
-                style={{ color: "#fd4b03", width: "50px" , size:"4cm" }}
+                <i
+                  class="fa fa-linkedin-square"
+                  aria-hidden="true"
+                  style={{ color: "#fd4b03", width: "50px", size: "4cm" }}
                 ></i>
-               
               </h3>
             </a>
           </div>
@@ -62,8 +81,7 @@ export default function Profile() {
             </a>
           </div>
         </div>
-       
-     </div>
-    </div>
+      </div>
+    </motion.div>
   );
 }

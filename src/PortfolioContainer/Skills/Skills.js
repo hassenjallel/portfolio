@@ -15,10 +15,26 @@ import nodejs from "../../assets/Home/nodejs.png";
 import php from "../../assets/Home/php.png";
 import brush from "../../assets/Home/4.png";
 import skil from "../../assets/Home/5.png";
+import { motion } from "framer-motion";
 
 export default function Skills() {
+  const containerVariants = {
+    hidden: {
+      x: "-100%",
+    },
+    visible: {
+     x: "0%",
+      transition: { delay: 0.5, duration: 0.5, type: "spring", stiffness: "60" },
+    },
+    
+  };
   return (
-    <div id="skills" className="skills-container">
+    <motion.div
+    variants={containerVariants}
+    initial="hidden"
+    animate="visible"
+    id="home"
+     id="skills" className="skills-container">
       <div className="title">
         <img
           className="brushImage"
@@ -100,6 +116,6 @@ export default function Skills() {
         </div>
         
       </div>
-    </div>
+    </motion.div>
   );
 }

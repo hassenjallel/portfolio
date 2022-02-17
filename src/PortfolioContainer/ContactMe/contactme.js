@@ -1,8 +1,8 @@
-import React from 'react'
-import './contactme.css'
-import coffeCup from'../../assets/Home/14.png'
-import coffe from'../../assets/Home/15.png'
-import brush from'../../assets/Home/13.png'
+import React from 'react';
+import './contactme.css';
+import coffeCup from'../../assets/Home/14.png';
+import coffe from'../../assets/Home/15.png';
+import brush from'../../assets/Home/13.png';
 
 export default function Contact() {
     return (
@@ -28,7 +28,11 @@ export default function Contact() {
             <div className="contact-me-parag">
                 <h3 className="parag">If you like what you see, (and how could you not?) why not shoot me an email? I would love to talk more about your team dynamic and the products you create. Best case scenario, we become best friends. Worst case scenario I make you laugh and we drift apart.</h3>
                 <a href="mailto:hassen.jalleli@esprit.tn">
-                    <button className="btn primary-btn" style={{backgroundColor:"#fe5756"}}> hire me</button>
+                    <button
+                    
+                     className="btn primary-btn" style={{backgroundColor:"#fe5756"}}> 
+                    hire me
+                    </button>
                 </a>
             </div>
         </>
