@@ -28,7 +28,7 @@ function App() {
              <Skills />
             <Projects />
             <Projects2 />
-          {/** <Contact />*/} 
+       <Contact />
           </Route>
         </Switch>
         </AnimatePresence>
