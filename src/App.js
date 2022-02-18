@@ -20,15 +20,15 @@ function App() {
     <div className="App">
         <AnimatePresence>
         <Switch location={location} key={location.key} >
-          <Route path="/" exact>
+          <Route exact path="/"  >
             <LogoAcc />
           </Route>
           <Route path="/profil">
             <Home />
-            <Skills />
+             <Skills />
             <Projects />
             <Projects2 />
-            <Contact />
+          {/** <Contact />*/} 
           </Route>
         </Switch>
         </AnimatePresence>
